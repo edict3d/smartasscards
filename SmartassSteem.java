@@ -280,7 +280,7 @@ public class SmartassSteem {
 	    myConfig.setDefaultAccount(cheat_account);//////////////
 	    List<ImmutablePair<PrivateKeyType, String>> privateKeys = new ArrayList<>();
 	    privateKeys.add(new ImmutablePair<>(
-	    		PrivateKeyType.POSTING, "5KXwpQzdtSBsEyoMsaX39XukgNzMKgeyWzhcACSjH649MJh1RmU"));
+	    		PrivateKeyType.POSTING, "/////////////////"));
 	    myConfig.getPrivateKeyStorage().addAccount(myConfig.getDefaultAccount(), privateKeys);
 	    try {
 			return new SteemJ();
